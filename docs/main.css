@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
+:root {
+  --taskbar-background: skyblue;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,25 +13,25 @@ body {
 }
 
 #taskbar {
-  background-color: darkblue;
+  background-color: var(--taskbar-background, skyblue);
   color: white;
 }
 
 #start-menu {
-  background-color: inherit;
+  background-color: var(--taskbar-background, skyblue);
   color: inherit;
   outline: none;
   overflow: hidden;
 }
 
 #start-menu:hover {
-  background-color: inherit;
+  background-color: var(--taskbar-background, skyblue);
 }
 
 #start-menu:focus {
-  background-color: inherit;
+  background-color: var(--taskbar-background, skyblue);
 }
 
 #start-menu:active {
-  background-color: inherit;
+  background-color: var(--taskbar-background, skyblue);
 }
