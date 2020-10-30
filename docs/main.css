@@ -7,3 +7,27 @@
 body {
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 }
+
+#taskbar {
+  background-color: darkblue;
+  color: white;
+}
+
+#start-menu {
+  background-color: inherit;
+  color: inherit;
+  outline: none;
+  overflow: hidden;
+}
+
+#start-menu:hover {
+  background-color: inherit;
+}
+
+#start-menu:focus {
+  background-color: inherit;
+}
+
+#start-menu:active {
+  background-color: inherit;
+}
