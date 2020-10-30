@@ -6,23 +6,21 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
-}
-
-body {
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 }
 
 #taskbar {
   background-color: skyblue;
   color: white;
+  vertical-align: bottom;
+  outline: none;
+  border: none;
+  overflow: hidden;
 }
 
 #start-menu {
   background-color: var(--start-background, lightskyblue);
   color: inherit;
-  outline: none;
-  border: none;
-  overflow: hidden;
 }
 
 #start-menu:hover {
