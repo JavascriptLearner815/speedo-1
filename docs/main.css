@@ -21,6 +21,7 @@ body {
   background-color: var(--taskbar-background, skyblue);
   color: inherit;
   outline: none;
+  border: none;
   overflow: hidden;
 }
 
